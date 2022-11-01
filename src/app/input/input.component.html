@@ -1,0 +1,10 @@
+<div class="input-container">
+  <label for="season">Enter Season: </label>
+  <input
+    type="text"
+    id="season"
+    [(ngModel)]="guess.name"
+    placeholder="Guess Seasons"
+  />
+  <app-button (btnClick)="submitGuess()"></app-button>
+</div>
